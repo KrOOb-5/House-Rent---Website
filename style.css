@@ -1,0 +1,15 @@
+:root {
+    /* --name: value; var(--main-bg-color)*/
+    --primary-clr: #fca22a;
+    --secondary-clr: #21b360;
+    --terciary-clr: #0e385d;
+    --grey-clr: #f8f8f8;
+    --black-clr: #1C1C1C;
+ }
+ 
+/* font-family: "Playfair Display", serif; */
+
+header {
+    background-color: var(--black-clr);
+    width: 100%;
+}
