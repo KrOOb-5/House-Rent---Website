@@ -7,23 +7,71 @@
     --black-clr: #1C1C1C;
  }
  
-/* font-family: "Playfair Display", serif; */
+/* */
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif; 
+}
 
 header {
     background-color: var(--black-clr);
     width: 100%;
+    
 }
 
-
-a{
-    color: white;
+#logo{
+    width: 213px;
+    height: 44px;
+    background-color: rgb(228, 41, 97);
+    
 }
 
-.dropdown-content{
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 14px 16px;
+}
+
+.dropdown-content {
     background-color: red;
-    display: block;
+    position: absolute;
+    visibility: hidden;
+    
+    padding: 10px 10px;
+    box-sizing: border-box;
 }
 
-.navbar{
-    display:flex;
+.navbar a {
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content > a{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+span {
+    color: white;
+    font-size: 16px;
+    vertical-align: middle;
+    
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  visibility:visible;
 }
