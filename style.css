@@ -13,3 +13,17 @@ header {
     background-color: var(--black-clr);
     width: 100%;
 }
+
+
+a{
+    color: white;
+}
+
+.dropdown-content{
+    background-color: red;
+    display: block;
+}
+
+.navbar{
+    display:flex;
+}
