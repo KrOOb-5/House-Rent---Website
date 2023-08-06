@@ -11,6 +11,9 @@
     list-style-type: none;
 }
 
+li{
+    padding: 10px;
+}
 /* */
 body {
     margin: 0;
@@ -46,13 +49,25 @@ header {
     font-weight: bold;
     font-size: 20px;
     padding: 14px 16px;
-}
-
-.bookingbtn{
-    margin-left: 100px;
-    border-top: var(--grey-clr) solid 1px;
     
 }
+
+.bookingbtn {
+    margin-left: 100px;
+    border-top: #ffffff solid 0.2px;
+    border-left: #ffffff solid 0.2px;;
+    
+    
+}
+
+.bookingbtn > a {
+    
+    color: var(--primary-clr);
+    
+    
+}
+
+
 
 .dropdown-content {
     background-color: red;
@@ -62,16 +77,15 @@ header {
     box-sizing: border-box;
 }
 
-.navbar a {
-    color: white;
+.navbar a {  
     text-align: center;
-    
     text-decoration: none;
     display: block;
-
+    color:white;
 }
 
-.dropdown-content > a{
+
+.dropdown-content > a {
     font-weight: lighter;
     font-size: smaller;
 }
