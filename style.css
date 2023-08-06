@@ -7,11 +7,23 @@
     --black-clr: #1C1C1C;
  }
  
+ ul {
+    list-style-type: none;
+}
+
 /* */
 body {
     margin: 0;
     font-family: "Playfair Display", serif; 
 }
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
 
 header {
     background-color: var(--black-clr);
@@ -32,15 +44,20 @@ header {
     position: relative;
     gap: 40px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     padding: 14px 16px;
+}
+
+.bookingbtn{
+    margin-left: 100px;
+    border-top: var(--grey-clr) solid 1px;
+    
 }
 
 .dropdown-content {
     background-color: red;
     position: absolute;
     visibility: hidden;
-    margin-top: 14px;
     padding: 10px 10px;
     box-sizing: border-box;
 }
