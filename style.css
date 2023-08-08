@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    margin-bottom: 0;
 }
 
 
@@ -34,11 +35,16 @@ header {
     
 }
 
-#logo{
+.logo{
     width: 213px;
     height: 44px;
     background-color: rgb(228, 41, 97);
     
+}
+
+.row {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -48,20 +54,21 @@ header {
     gap: 40px;
     font-weight: bold;
     font-size: 20px;
-    padding: 14px 16px;
+    
     
 }
 
 .bookingbtn {
     margin-left: 100px;
-    border-top: #ffffff solid 0.2px;
-    border-left: #ffffff solid 0.2px;;
+    border-top: #ffffff solid 0.1px;
+    border-left: #ffffff solid 0.1px;;
     
     
 }
 
 .bookingbtn > a {
     color: var(--primary-clr);
+    text-decoration: none;
 }
 
 
@@ -72,6 +79,7 @@ header {
     visibility: hidden;
     padding: 10px 10px;
     box-sizing: border-box;
+    margin-top: 31px;
 }
 
 .navbar a {  
