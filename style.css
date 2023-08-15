@@ -5,13 +5,15 @@
     --terciary-clr: #0e385d;
     --grey-clr: #f8f8f8;
     --black-clr: #1C1C1C;
+    --font-size-normal: 20px;
+    --border: thin #f8f8f8 solid;
  }
  
- ul {
+ul {
     list-style-type: none;
 }
 
-li{
+li {
     padding: 10px;
 }
 /* */
@@ -33,6 +35,8 @@ header {
     background-color: var(--black-clr);
     width: 100%;
     
+    
+    
 }
 
 .logo{
@@ -45,23 +49,22 @@ header {
 .row {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     position: relative;
-    gap: 40px;
     font-weight: bold;
-    font-size: 20px;
-    
-    
+    font-size: var(--font-size-normal);
+    border-top: var(--border);
 }
 
 .bookingbtn {
     margin-left: 100px;
-    border-top: #ffffff solid 0.1px;
-    border-left: #ffffff solid 0.1px;;
+    /* border-top: #ffffff solid 0.1px;
+    border-left: #ffffff solid 0.1px;; */
     
     
 }
@@ -69,6 +72,8 @@ header {
 .bookingbtn > a {
     color: var(--primary-clr);
     text-decoration: none;
+    font-weight: bold;
+    font-size: var(--font-size-normal);
 }
 
 
@@ -93,6 +98,7 @@ header {
 .dropdown-content > a {
     font-weight: lighter;
     font-size: smaller;
+    
 }
 
 span {
@@ -111,3 +117,15 @@ span {
   display: block;
   visibility:visible;
 }
+
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top: var(--border);
+}
+
+.booking{
+    margin: 0;
+}
+
